@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+body{
+    font: 12pt Arial;
+}
+
+header{
+    font: 16pt Arial;
+    background:linear-gradient(to bottom, #39cf7c, #2b975a, #1a5c38);
+    color: white;
+}
+
+#principal{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 3px 1px 5px black;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    display: inline-block;
+    font: 12pt Arial;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
