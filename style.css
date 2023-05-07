@@ -27,7 +27,7 @@ header{
 }
 
 #principal{
-    font: 50px 'Bebas';
+    font: 50px 'Bebas', 'Arial';
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -69,7 +69,7 @@ span{
 }
 
 h2{
-    font-family: 'android';
+    font-family: 'android', 'Arial';
     margin: 10px;
     background-image: linear-gradient(to right, #0f924a62 , white);
     color: #185a36;
