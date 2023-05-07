@@ -1,5 +1,19 @@
+@font-face{
+    font-family: 'android';
+    src: url('/Mini-Projeto/fontes/idroid.otf');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(/Mini-Projeto/fontes/BebasNeue-Regular.ttf);
+}
+
 *{
     margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 10%;
+    min-height: 10%;
 }
 
 body{
@@ -13,6 +27,7 @@ header{
 }
 
 #principal{
+    font: 50px 'Bebas';
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -35,5 +50,61 @@ nav > a{
     padding-right: 10px;
     color: white;
     text-decoration: none;
+    padding-bottom: 2px;
+}
+
+nav > a:hover{
+    border-bottom: 2px solid #289659d8;
+}
+
+#hist{
+    font-family: 'android';
+    font-size: 30px;
+    padding: 10px;
+    color: #185a36;
+}
+
+span{
+    color:#2c6e49;
+}
+
+h2{
+    font-family: 'android';
+    margin: 10px;
+    background-image: linear-gradient(to right, #0f924a62 , white);
+    color: #185a36;
+}
+
+article > p{
+    font: 15pt Arial;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 35px;
+}
+
+#robots{
+    display: block;
+    margin: auto;
+}
+
+#irina{
+    display: block;
+    margin: auto;
+}
+
+#bugdroid{
+    display: block;
+    margin: auto;
+}
+
+#PartVid{
+    background-color: #185a36;
+}
+
+#video{
+    text-align: center;
+    padding: 30px;
+    min-width: 50%;
+    min-height: 50%;
 }
 
