@@ -82,29 +82,42 @@ article > p{
     line-height: 35px;
 }
 
-#robots{
+#robots {
     display: block;
     margin: auto;
 }
 
-#irina{
+#irina {
     display: block;
     margin: auto;
 }
 
-#bugdroid{
+#bugdroid {
     display: block;
     margin: auto;
 }
 
-#PartVid{
+#PartVid {
     background-color: #185a36;
 }
 
-#video{
+#video {
     text-align: center;
     padding: 30px;
-    min-width: 50%;
-    min-height: 50%;
 }
+
+@media (max-width:400px) {
+
+    #video {
+        width: 350px;
+    }
+}
+
+@media (min-width:800px) {
+    #video {
+        width: 800px;
+    }
+}
+
+
 
