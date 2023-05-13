@@ -26,6 +26,10 @@ header{
     color: white;
 }
 
+header > p {
+    margin-bottom: 20px;
+}
+
 #principal{
     font: 50px 'Bebas', 'Arial';
     text-align: center;
@@ -65,7 +69,8 @@ nav > a:hover{
 }
 
 span{
-    color:#2c6e49;
+    color:#245c3c;
+    font-weight: bold;
 }
 
 h2{
@@ -109,20 +114,119 @@ article > p{
     padding: 30px 0px 30px 0px;
 }
 
-@media (max-width: 800px) {
-
-    #video {
-        width: 200px;
-        height: 300px;
-    }
-}
-
 @media (min-width: 400px) {
     #video {
         width: 800px;
-        height: 500px;
+        height: 400px;
+    }
+
+    ul {
+       display: block; 
+    }
+
+    header > p {
+        margin-bottom: 30px;
     }
 }
 
+@media (max-width: 800px) {
 
+    #video {
+        width: 400px;
+        height: 220px;
+    }
 
+    nav {
+        background-color: #2fa866;
+        color: black;
+        width: 50px;
+        height: 40px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    nav > a {
+        color: white;
+        display: none;
+    }
+
+    nav:hover {
+        transition: all 1s;
+        width: 80%;
+        height: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav:hover > a {
+        display: inline;
+        font: 12pt Arial;
+        margin: auto;
+        text-align: center;
+    }
+
+    nav > a:hover {
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+#Extra {
+    padding: 20px;
+}
+
+#Extra > section {
+    height: 100%;
+    width: 100%;
+    background-color: #c5ebd6;
+    border-radius: 10px;
+}
+
+#Extra > section > h1{
+    color: white;
+    font: 16pt Arial;
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px 0px 0px 10px;
+}
+ 
+#Extra > section > p{
+    font: 13pt Arial;
+    text-align: left;
+    text-indent: 25px;
+}
+
+#Extra > p{
+    font: 13pt Arial;
+    text-align: left;
+    text-indent: 25px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+ul > li::before {
+    content: '✓';
+}
+
+#l {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#lista {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #185a36;
+    color: rgb(207, 207, 207);
+    text-align: center;
+}
+
+#footer {
+    color: white;
+}
