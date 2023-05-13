@@ -99,23 +99,28 @@ article > p{
 
 #PartVid {
     background-color: #185a36;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 #video {
-    text-align: center;
-    padding: 30px;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
 }
 
-@media (max-width:400px) {
+@media (max-width: 800px) {
 
     #video {
-        width: 350px;
+        width: 200px;
+        height: 300px;
     }
 }
 
-@media (min-width:800px) {
+@media (min-width: 400px) {
     #video {
         width: 800px;
+        height: 500px;
     }
 }
 
