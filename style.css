@@ -59,6 +59,7 @@ nav > a{
 
 nav > a:hover{
     border-bottom: 2px solid #289659d8;
+    text-decoration: none;
 }
 
 #hist{
@@ -66,6 +67,15 @@ nav > a:hover{
     font-size: 30px;
     padding: 10px;
     color: #185a36;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline black;
 }
 
 span{
@@ -132,8 +142,8 @@ article > p{
 @media (max-width: 800px) {
 
     #video {
-        width: 400px;
-        height: 220px;
+        width: 380px;
+        height: 210px;
     }
 
     nav {
@@ -143,19 +153,23 @@ article > p{
         height: 40px;
         border-radius: 15px;
         margin-bottom: 10px;
+        display:inline-block;
+        margin: 10px;
     }
 
     nav > a {
         color: white;
         display: none;
+        padding: 2px;
     }
 
     nav:hover {
         transition: all 1s;
-        width: 80%;
+        width: 85%;
         height: 20px;
         text-align: center;
         padding: 20px;
+        justify-content: center;
     }
 
     nav:hover > a {
@@ -163,6 +177,8 @@ article > p{
         font: 12pt Arial;
         margin: auto;
         text-align: center;
+        padding: 0px 5px 2px 0px;
+        text-decoration: none;
     }
 
     nav > a:hover {
@@ -170,6 +186,9 @@ article > p{
         height: 100px;
     }
 
+    header > p {
+        font: 14pt Arial;
+    }
 }
 
 #Extra {
